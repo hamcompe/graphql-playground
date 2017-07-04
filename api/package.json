@@ -1,0 +1,30 @@
+{
+  "name": "subscription-playground",
+  "version": "1.0.0",
+  "description": "Playground experiment for graphql subscription",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "graphql": "^0.10.3",
+    "graphql-redis-subscriptions": "^1.2.0",
+    "graphql-server-express": "^1.0.0",
+    "graphql-subscriptions": "^0.4.3",
+    "graphql-tools": "^1.1.0",
+    "subscriptions-transport-ws": "^0.7.3"
+  }
+}
